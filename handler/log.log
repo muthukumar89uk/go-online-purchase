@@ -1,0 +1,537 @@
+[INFO:] 2023/08/14 13:55:25.857192 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/14 13:55:25.857696 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.857696 handler.go:51: Error : 'missing Username' Status : 400
+[INFO:] 2023/08/14 13:55:25.858239 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858239 handler.go:51: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/14 13:55:25.858239 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858239 handler.go:51: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/14 13:55:25.858239 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858239 handler.go:51: Error : 'missing Role' Status : 400
+[INFO:] 2023/08/14 13:55:25.858784 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858851 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/14 13:55:25.858851 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858851 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/14 13:55:25.858851 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:25.858851 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/14 13:55:25.859412 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/08/14 13:55:26.030243 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/08/14 13:55:26.030243 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/08/14 13:55:26.085995 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/08/14 13:55:26.085995 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/14 13:55:26.085995 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/14 13:55:26.110412 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/14 13:55:26.110956 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/14 13:55:26.110956 handler.go:145: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/14 13:55:26.110956 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/14 13:55:26.110956 handler.go:145: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/14 13:55:26.110956 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/14 13:55:26.110956 handler.go:156: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/14 13:55:26.111466 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/14 13:55:26.217791 handler.go:205: Error : 'user not found' Status : 404
+[INFO:] 2023/08/14 13:55:26.218467 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/14 13:55:26.272829 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/14 13:55:26.273535 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/08/14 13:55:26.330337 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/08/14 13:55:26.331252 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/08/14 13:55:26.387185 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/08/14 13:55:26.530308 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:26.532345 handler.go:217: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:26.532856 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/14 13:55:26.532856 handler.go:237: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/08/14 13:55:26.533366 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/14 13:55:26.533366 handler.go:237: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/08/14 13:55:26.533876 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/14 13:55:26.533876 handler.go:237: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/08/14 13:55:26.534386 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/14 13:55:26.534386 handler.go:237: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/08/14 13:55:26.534386 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/08/14 13:55:26.651024 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/08/14 13:55:26.651786 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/08/14 13:55:26.652080 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/08/14 13:55:26.675839 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/14 13:55:26.677417 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/08/14 13:55:26.799499 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:26.805266 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/08/14 13:55:26.805593 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:26.833784 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:26.835445 handler.go:283: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:26.835445 handler.go:289: Message : 'UpdateProduct-API called'
+[ERROR:]2023/08/14 13:55:26.951243 handler.go:321: Error : 'Product not found' Status : 404
+[INFO:] 2023/08/14 13:55:26.953803 handler.go:289: Message : 'UpdateProduct-API called'
+[INFO:] 2023/08/14 13:55:26.959813 handler.go:314: Message : 'Product updated successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.119114 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:27.121153 handler.go:332: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:27.122239 handler.go:338: Message : 'Deleteproduct-API called'
+[ERROR:]2023/08/14 13:55:27.243922 handler.go:348: Error : 'Product not found' Status : 404
+[INFO:] 2023/08/14 13:55:27.245714 handler.go:338: Message : 'Deleteproduct-API called'
+[INFO:] 2023/08/14 13:55:27.248378 handler.go:341: Message : 'Product deleted successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.276842 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:27.278931 handler.go:360: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:27.279447 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.279447 handler.go:380: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/08/14 13:55:27.279970 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.279970 handler.go:380: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/08/14 13:55:27.280481 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.280481 handler.go:380: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/08/14 13:55:27.280999 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.280999 handler.go:380: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/08/14 13:55:27.281510 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.282028 handler.go:380: Error : 'missing Name' Status : 400
+[INFO:] 2023/08/14 13:55:27.282028 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.282028 handler.go:380: Error : 'missing Address' Status : 400
+[INFO:] 2023/08/14 13:55:27.282545 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.282545 handler.go:380: Error : 'missing PhoneNumber' Status : 400
+[INFO:] 2023/08/14 13:55:27.283056 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/14 13:55:27.283056 handler.go:390: Error : 'Invalid phone number' Status : 400 
+[INFO:] 2023/08/14 13:55:27.283596 handler.go:366: Message : 'AddOrder-API called'
+[INFO:] 2023/08/14 13:55:27.410629 handler.go:429: Message : 'Order added successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.437490 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/14 13:55:27.439608 handler.go:504: Message : 'GetOrders-API called'
+[INFO:] 2023/08/14 13:55:27.545956 handler.go:519: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.550705 handler.go:475: Message : 'GetOrders-API called'
+[INFO:] 2023/08/14 13:55:27.552281 handler.go:491: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.580768 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:27.581783 handler.go:542: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:27.582293 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/08/14 13:55:27.686857 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/08/14 13:55:27.688778 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/08/14 13:55:27.689328 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/08/14 13:55:27.690445 handler.go:548: Message : 'Payment-API called'
+[INFO:] 2023/08/14 13:55:27.694163 handler.go:573: Message : 'Payment successful' Status : 200
+[INFO:] 2023/08/14 13:55:27.719789 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:27.721321 handler.go:441: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:27.721858 handler.go:447: Message : 'Deleteorder-API called'
+[ERROR:]2023/08/14 13:55:27.825781 handler.go:464: Error : 'order not found' Status : 404
+[INFO:] 2023/08/14 13:55:27.826296 handler.go:447: Message : 'Deleteorder-API called'
+[INFO:] 2023/08/14 13:55:27.830177 handler.go:458: Message : 'order deleted successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.858890 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/14 13:55:27.861000 handler.go:645: Message : 'GetOrderStatus-API called'
+[ERROR:]2023/08/14 13:55:27.965084 handler.go:650: Error : 'Order not found' Status : 404
+[INFO:] 2023/08/14 13:55:27.966291 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/08/14 13:55:27.968701 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.969654 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/08/14 13:55:27.969654 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:27.996852 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:27.998381 handler.go:678: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:27.998381 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/08/14 13:55:28.104098 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:28.104660 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/08/14 13:55:28.104660 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/08/14 13:55:28.129699 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/14 13:55:28.131227 handler.go:597: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/14 13:55:28.131749 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[ERROR:]2023/08/14 13:55:28.257675 handler.go:635: Error : 'order not found' Status : 404
+[INFO:] 2023/08/14 13:55:28.260408 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[INFO:] 2023/08/14 13:55:28.262831 handler.go:628: Message : 'Order status updated successfully' Status : 200
+[INFO:] 2023/08/16 12:47:41.682370 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:47:41.684042 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.684042 handler.go:51: Error : 'missing Username' Status : 400
+[INFO:] 2023/08/16 12:47:41.684588 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.684588 handler.go:51: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.684588 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.684588 handler.go:51: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/16 12:47:41.684588 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.684588 handler.go:51: Error : 'missing Role' Status : 400
+[INFO:] 2023/08/16 12:47:41.685127 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.685127 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.685127 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.685127 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.685127 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.685127 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.685127 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.798178 handler.go:90: Error : 'user already exist' Status : 400
+[INFO:] 2023/08/16 12:47:41.798976 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.799481 handler.go:90: Error : 'user already exist' Status : 400
+[INFO:] 2023/08/16 12:47:41.799888 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:47:41.799958 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.825501 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:47:41.825501 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.826005 handler.go:145: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/16 12:47:41.826005 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.826005 handler.go:145: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.826005 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.826005 handler.go:156: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:47:41.826551 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.934914 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/16 12:47:41.939689 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.940282 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/16 12:47:41.941505 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.941977 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/16 12:47:41.943443 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:47:41.944155 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/16 12:47:41.969687 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:20.246167 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:20.246670 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.246670 handler.go:51: Error : 'missing Username' Status : 400
+[INFO:] 2023/08/16 12:59:20.247207 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247207 handler.go:51: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.247207 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247207 handler.go:51: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/16 12:59:20.247207 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247207 handler.go:51: Error : 'missing Role' Status : 400
+[INFO:] 2023/08/16 12:59:20.247748 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247748 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.247748 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247748 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.247748 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.247748 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.248281 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/08/16 12:59:20.437892 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/08/16 12:59:20.438205 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/08/16 12:59:20.494671 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/08/16 12:59:20.494793 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/08/16 12:59:20.494793 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.521679 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:20.522183 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:59:20.522183 handler.go:145: Error : 'missing Password' Status : 400
+[INFO:] 2023/08/16 12:59:20.522183 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:59:20.522183 handler.go:145: Error : 'missing Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.522730 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:59:20.522730 handler.go:156: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/08/16 12:59:20.522730 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:59:20.651475 handler.go:205: Error : 'user not found' Status : 404
+[INFO:] 2023/08/16 12:59:20.653193 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/08/16 12:59:20.708259 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/08/16 12:59:20.708954 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/08/16 12:59:20.767967 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/08/16 12:59:20.768163 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/08/16 12:59:20.824349 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/08/16 12:59:20.851803 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:20.854402 handler.go:217: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:20.856390 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/16 12:59:20.856390 handler.go:237: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/08/16 12:59:20.856907 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/16 12:59:20.856907 handler.go:237: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/08/16 12:59:20.857442 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/16 12:59:20.857442 handler.go:237: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/08/16 12:59:20.858473 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/08/16 12:59:20.858473 handler.go:237: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/08/16 12:59:20.859014 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/08/16 12:59:20.970715 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/08/16 12:59:20.971276 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/08/16 12:59:20.971572 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/08/16 12:59:20.996731 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:20.997748 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/08/16 12:59:21.109505 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.114816 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/08/16 12:59:21.115047 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.146845 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:21.148397 handler.go:283: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:21.148907 handler.go:289: Message : 'UpdateProduct-API called'
+[ERROR:]2023/08/16 12:59:21.268121 handler.go:321: Error : 'Product not found' Status : 404
+[INFO:] 2023/08/16 12:59:21.270077 handler.go:289: Message : 'UpdateProduct-API called'
+[INFO:] 2023/08/16 12:59:21.275245 handler.go:314: Message : 'Product updated successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.443503 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:21.446508 handler.go:332: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:21.446508 handler.go:338: Message : 'Deleteproduct-API called'
+[ERROR:]2023/08/16 12:59:21.560765 handler.go:348: Error : 'Product not found' Status : 404
+[INFO:] 2023/08/16 12:59:21.562353 handler.go:338: Message : 'Deleteproduct-API called'
+[INFO:] 2023/08/16 12:59:21.565010 handler.go:341: Message : 'Product deleted successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.590920 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:21.592026 handler.go:360: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:21.592540 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.592540 handler.go:380: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/08/16 12:59:21.593053 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.593053 handler.go:380: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/08/16 12:59:21.593053 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.593564 handler.go:380: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/08/16 12:59:21.593564 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.593564 handler.go:380: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/08/16 12:59:21.594076 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.594076 handler.go:380: Error : 'missing Name' Status : 400
+[INFO:] 2023/08/16 12:59:21.594590 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.594590 handler.go:380: Error : 'missing Address' Status : 400
+[INFO:] 2023/08/16 12:59:21.594590 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.595101 handler.go:380: Error : 'missing PhoneNumber' Status : 400
+[INFO:] 2023/08/16 12:59:21.595101 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/08/16 12:59:21.595101 handler.go:390: Error : 'Invalid phone number' Status : 400 
+[INFO:] 2023/08/16 12:59:21.595612 handler.go:366: Message : 'AddOrder-API called'
+[INFO:] 2023/08/16 12:59:21.719123 handler.go:429: Message : 'Order added successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.876036 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:21.878180 handler.go:504: Message : 'GetOrders-API called'
+[INFO:] 2023/08/16 12:59:21.989392 handler.go:519: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:21.996224 handler.go:475: Message : 'GetOrders-API called'
+[INFO:] 2023/08/16 12:59:21.997271 handler.go:491: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.023324 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:22.024395 handler.go:542: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:22.024934 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/08/16 12:59:22.137280 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/08/16 12:59:22.144009 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/08/16 12:59:22.144525 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/08/16 12:59:22.147241 handler.go:548: Message : 'Payment-API called'
+[INFO:] 2023/08/16 12:59:22.151706 handler.go:573: Message : 'Payment successful' Status : 200
+[INFO:] 2023/08/16 12:59:22.178848 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:22.180387 handler.go:441: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:22.180906 handler.go:447: Message : 'Deleteorder-API called'
+[ERROR:]2023/08/16 12:59:22.301757 handler.go:464: Error : 'order not found' Status : 404
+[INFO:] 2023/08/16 12:59:22.303905 handler.go:447: Message : 'Deleteorder-API called'
+[INFO:] 2023/08/16 12:59:22.309471 handler.go:458: Message : 'order deleted successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.448883 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/08/16 12:59:22.450543 handler.go:645: Message : 'GetOrderStatus-API called'
+[ERROR:]2023/08/16 12:59:22.569434 handler.go:650: Error : 'Order not found' Status : 404
+[INFO:] 2023/08/16 12:59:22.569733 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/08/16 12:59:22.570797 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.572603 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/08/16 12:59:22.572603 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.600081 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:22.601608 handler.go:678: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:22.602147 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/08/16 12:59:22.704225 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.705550 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/08/16 12:59:22.705550 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/08/16 12:59:22.836796 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/08/16 12:59:22.839191 handler.go:597: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/08/16 12:59:22.839703 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[ERROR:]2023/08/16 12:59:22.956827 handler.go:635: Error : 'order not found' Status : 404
+[INFO:] 2023/08/16 12:59:22.957777 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[INFO:] 2023/08/16 12:59:22.963044 handler.go:628: Message : 'Order status updated successfully' Status : 200
+[INFO:] 2023/09/12 19:50:43.647021 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:50:43.647525 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648049 handler.go:51: Error : 'missing Username' Status : 400
+[INFO:] 2023/09/12 19:50:43.648049 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648049 handler.go:51: Error : 'missing Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.648049 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648049 handler.go:51: Error : 'missing Password' Status : 400
+[INFO:] 2023/09/12 19:50:43.648562 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648562 handler.go:51: Error : 'missing Role' Status : 400
+[INFO:] 2023/09/12 19:50:43.648562 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648562 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.648562 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648562 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.648562 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.648562 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.649072 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/09/12 19:50:43.895590 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/09/12 19:50:43.895654 handler.go:35: Message : 'signup-API called'
+[INFO:] 2023/09/12 19:50:43.949966 handler.go:118: Message : 'signup successful!!!' Status : 200
+[INFO:] 2023/09/12 19:50:43.949966 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:50:43.949966 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.976028 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:50:43.976593 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:50:43.976593 handler.go:145: Error : 'missing Password' Status : 400
+[INFO:] 2023/09/12 19:50:43.976593 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:50:43.976593 handler.go:145: Error : 'missing Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.976593 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:50:43.976593 handler.go:156: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:50:43.977096 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:50:44.092782 handler.go:205: Error : 'user not found' Status : 404
+[INFO:] 2023/09/12 19:50:44.093137 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:50:44.147208 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/09/12 19:50:44.147208 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/09/12 19:50:44.208209 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/09/12 19:50:44.208917 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/09/12 19:50:44.263306 handler.go:192: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/09/12 19:50:44.410567 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:44.415266 handler.go:217: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:44.415809 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:50:44.415809 handler.go:237: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/09/12 19:50:44.416323 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:50:44.416323 handler.go:237: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/09/12 19:50:44.416323 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:50:44.416323 handler.go:237: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/09/12 19:50:44.416837 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:50:44.416837 handler.go:237: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/09/12 19:50:44.417351 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/09/12 19:50:44.523786 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.523914 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/09/12 19:50:44.524416 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.549426 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:50:44.550465 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/09/12 19:50:44.662046 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.663407 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/09/12 19:50:44.663910 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.688245 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:44.688991 handler.go:283: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:44.689532 handler.go:289: Message : 'UpdateProduct-API called'
+[ERROR:]2023/09/12 19:50:44.810615 handler.go:321: Error : 'Product not found' Status : 404
+[INFO:] 2023/09/12 19:50:44.812395 handler.go:289: Message : 'UpdateProduct-API called'
+[INFO:] 2023/09/12 19:50:44.817012 handler.go:314: Message : 'Product updated successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.843003 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:44.844394 handler.go:332: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:44.844394 handler.go:338: Message : 'Deleteproduct-API called'
+[ERROR:]2023/09/12 19:50:44.967661 handler.go:348: Error : 'Product not found' Status : 404
+[INFO:] 2023/09/12 19:50:44.969397 handler.go:338: Message : 'Deleteproduct-API called'
+[INFO:] 2023/09/12 19:50:44.970781 handler.go:341: Message : 'Product deleted successfully' Status : 200
+[INFO:] 2023/09/12 19:50:44.998253 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:44.999302 handler.go:360: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:45.000328 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.000328 handler.go:380: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/09/12 19:50:45.000846 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.000846 handler.go:380: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/09/12 19:50:45.001359 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.001359 handler.go:380: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/09/12 19:50:45.001359 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.001359 handler.go:380: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/09/12 19:50:45.001870 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.001870 handler.go:380: Error : 'missing Name' Status : 400
+[INFO:] 2023/09/12 19:50:45.002380 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.002380 handler.go:380: Error : 'missing Address' Status : 400
+[INFO:] 2023/09/12 19:50:45.002380 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.002380 handler.go:380: Error : 'missing PhoneNumber' Status : 400
+[INFO:] 2023/09/12 19:50:45.002889 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:50:45.002889 handler.go:390: Error : 'Invalid phone number' Status : 400 
+[INFO:] 2023/09/12 19:50:45.003398 handler.go:366: Message : 'AddOrder-API called'
+[INFO:] 2023/09/12 19:50:45.125192 handler.go:429: Message : 'Order added successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.148275 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:50:45.149319 handler.go:504: Message : 'GetOrders-API called'
+[INFO:] 2023/09/12 19:50:45.254018 handler.go:519: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.261217 handler.go:475: Message : 'GetOrders-API called'
+[INFO:] 2023/09/12 19:50:45.262398 handler.go:491: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.287275 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:45.288317 handler.go:542: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:45.288317 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/09/12 19:50:45.397446 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/09/12 19:50:45.404856 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/09/12 19:50:45.404856 handler.go:586: Error : 'Payment not matching with the order price' Status : 400
+[INFO:] 2023/09/12 19:50:45.405399 handler.go:548: Message : 'Payment-API called'
+[INFO:] 2023/09/12 19:50:45.410217 handler.go:573: Message : 'Payment successful' Status : 200
+[INFO:] 2023/09/12 19:50:45.436387 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:45.437641 handler.go:441: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:45.438191 handler.go:447: Message : 'Deleteorder-API called'
+[ERROR:]2023/09/12 19:50:45.560077 handler.go:464: Error : 'order not found' Status : 404
+[INFO:] 2023/09/12 19:50:45.561769 handler.go:447: Message : 'Deleteorder-API called'
+[INFO:] 2023/09/12 19:50:45.566120 handler.go:458: Message : 'order deleted successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.593780 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:50:45.595400 handler.go:645: Message : 'GetOrderStatus-API called'
+[ERROR:]2023/09/12 19:50:45.715527 handler.go:650: Error : 'Order not found' Status : 404
+[INFO:] 2023/09/12 19:50:45.716545 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/09/12 19:50:45.717319 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.719150 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/09/12 19:50:45.719537 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.744232 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:45.745518 handler.go:678: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:45.746035 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/09/12 19:50:45.868416 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.875046 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/09/12 19:50:45.875046 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:50:45.900362 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:50:45.901413 handler.go:597: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:50:45.901952 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[ERROR:]2023/09/12 19:50:46.012279 handler.go:635: Error : 'order not found' Status : 404
+[INFO:] 2023/09/12 19:50:46.012279 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[INFO:] 2023/09/12 19:50:46.014776 handler.go:628: Message : 'Order status updated successfully' Status : 200
+[INFO:] 2023/09/12 19:51:39.356953 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:51:39.357952 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.357952 handler.go:51: Error : 'missing Username' Status : 400
+[INFO:] 2023/09/12 19:51:39.358519 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.358519 handler.go:51: Error : 'missing Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.359024 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.359024 handler.go:51: Error : 'missing Password' Status : 400
+[INFO:] 2023/09/12 19:51:39.359024 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.359024 handler.go:51: Error : 'missing Role' Status : 400
+[INFO:] 2023/09/12 19:51:39.359024 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.359541 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.359541 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.359541 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.359541 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.359541 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.360087 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.481742 handler.go:90: Error : 'user already exist' Status : 400
+[INFO:] 2023/09/12 19:51:39.489186 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.489514 handler.go:90: Error : 'user already exist' Status : 400
+[INFO:] 2023/09/12 19:51:39.490057 handler.go:35: Message : 'signup-API called'
+[ERROR:]2023/09/12 19:51:39.490057 handler.go:62: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.514520 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:51:39.515566 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:51:39.515566 handler.go:145: Error : 'missing Password' Status : 400
+[INFO:] 2023/09/12 19:51:39.515566 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:51:39.515566 handler.go:145: Error : 'missing Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.515566 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:51:39.516105 handler.go:156: Error : 'Invalid Email' Status : 400
+[INFO:] 2023/09/12 19:51:39.516105 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:51:39.637372 handler.go:205: Error : 'user not found' Status : 404
+[INFO:] 2023/09/12 19:51:39.638665 handler.go:130: Message : 'login-API called'
+[ERROR:]2023/09/12 19:51:39.694873 handler.go:199: Error : 'incorrect password' Status : 400
+[INFO:] 2023/09/12 19:51:39.698021 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/09/12 19:51:39.753111 handler.go:170: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/09/12 19:51:39.753901 handler.go:130: Message : 'login-API called'
+[INFO:] 2023/09/12 19:51:39.806435 handler.go:170: Message : 'login successful!!!' Status : 200
+[INFO:] 2023/09/12 19:51:39.835507 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:39.837040 handler.go:217: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:39.837552 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:51:39.837552 handler.go:237: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/09/12 19:51:39.838063 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:51:39.838063 handler.go:237: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/09/12 19:51:39.838577 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:51:39.838577 handler.go:237: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/09/12 19:51:39.839090 handler.go:223: Message : 'AddProduct-API called'
+[ERROR:]2023/09/12 19:51:39.839090 handler.go:237: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/09/12 19:51:39.839614 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/09/12 19:51:39.947343 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/09/12 19:51:39.948614 handler.go:223: Message : 'AddProduct-API called'
+[INFO:] 2023/09/12 19:51:39.949681 handler.go:251: Message : 'Product added successfully' Status : 200
+[INFO:] 2023/09/12 19:51:39.975452 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:51:39.976982 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/09/12 19:51:40.080026 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.083413 handler.go:261: Message : 'GetAllProducts-API called'
+[INFO:] 2023/09/12 19:51:40.083413 handler.go:264: Message : 'Product(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.109193 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:40.110210 handler.go:283: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:40.110902 handler.go:289: Message : 'UpdateProduct-API called'
+[ERROR:]2023/09/12 19:51:40.232280 handler.go:321: Error : 'Product not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.234495 handler.go:289: Message : 'UpdateProduct-API called'
+[INFO:] 2023/09/12 19:51:40.236299 handler.go:314: Message : 'Product updated successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.265817 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:40.267955 handler.go:332: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:40.267955 handler.go:338: Message : 'Deleteproduct-API called'
+[ERROR:]2023/09/12 19:51:40.379621 handler.go:348: Error : 'Product not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.380191 handler.go:338: Message : 'Deleteproduct-API called'
+[ERROR:]2023/09/12 19:51:40.380920 handler.go:348: Error : 'Product not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.405935 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:40.407461 handler.go:360: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:40.407461 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.407973 handler.go:380: Error : 'missing BrandName' Status : 400
+[INFO:] 2023/09/12 19:51:40.407973 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.407973 handler.go:380: Error : 'missing ProductPrice' Status : 400
+[INFO:] 2023/09/12 19:51:40.408485 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.408485 handler.go:380: Error : 'missing RamCapacity' Status : 400
+[INFO:] 2023/09/12 19:51:40.408996 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.408996 handler.go:380: Error : 'missing RamPrice' Status : 400
+[INFO:] 2023/09/12 19:51:40.409516 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.409516 handler.go:380: Error : 'missing Name' Status : 400
+[INFO:] 2023/09/12 19:51:40.410027 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.410027 handler.go:380: Error : 'missing Address' Status : 400
+[INFO:] 2023/09/12 19:51:40.410027 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.410027 handler.go:380: Error : 'missing PhoneNumber' Status : 400
+[INFO:] 2023/09/12 19:51:40.410903 handler.go:366: Message : 'AddOrder-API called'
+[ERROR:]2023/09/12 19:51:40.410903 handler.go:390: Error : 'Invalid phone number' Status : 400 
+[INFO:] 2023/09/12 19:51:40.410903 handler.go:366: Message : 'AddOrder-API called'
+[INFO:] 2023/09/12 19:51:40.542709 handler.go:429: Message : 'Order added successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.567957 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:51:40.569487 handler.go:504: Message : 'GetOrders-API called'
+[INFO:] 2023/09/12 19:51:40.679401 handler.go:519: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.680752 handler.go:475: Message : 'GetOrders-API called'
+[INFO:] 2023/09/12 19:51:40.681413 handler.go:491: Message : 'Order(s) retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:40.706629 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:40.708760 handler.go:542: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:40.708760 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/09/12 19:51:40.814133 handler.go:551: Error : 'Order not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.815802 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/09/12 19:51:40.817061 handler.go:551: Error : 'Order not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.818253 handler.go:548: Message : 'Payment-API called'
+[ERROR:]2023/09/12 19:51:40.818949 handler.go:551: Error : 'Order not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.847524 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:40.849247 handler.go:441: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:40.849247 handler.go:447: Message : 'Deleteorder-API called'
+[ERROR:]2023/09/12 19:51:40.965278 handler.go:464: Error : 'order not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.966823 handler.go:447: Message : 'Deleteorder-API called'
+[ERROR:]2023/09/12 19:51:40.968267 handler.go:464: Error : 'order not found' Status : 404
+[INFO:] 2023/09/12 19:51:40.996342 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[INFO:] 2023/09/12 19:51:40.997897 handler.go:645: Message : 'GetOrderStatus-API called'
+[ERROR:]2023/09/12 19:51:41.105691 handler.go:650: Error : 'Order not found' Status : 404
+[INFO:] 2023/09/12 19:51:41.108122 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/09/12 19:51:41.114779 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:41.115165 handler.go:645: Message : 'GetOrderStatus-API called'
+[INFO:] 2023/09/12 19:51:41.115930 handler.go:667: Message : 'Order status retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:41.142434 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:41.144166 handler.go:678: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:41.144709 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/09/12 19:51:41.253093 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:41.254876 handler.go:684: Message : 'GetAllOrderStatus-API called'
+[INFO:] 2023/09/12 19:51:41.255923 handler.go:707: Message : 'Order statuses retrieved successfully' Status : 200
+[INFO:] 2023/09/12 19:51:41.288142 driver.go:76: Message : 'Established a successful connection to test database!!!'
+[ERROR:]2023/09/12 19:51:41.289197 handler.go:597: Error : 'unauthorized entry' Status : 401
+[INFO:] 2023/09/12 19:51:41.289737 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[ERROR:]2023/09/12 19:51:41.397408 handler.go:635: Error : 'order not found' Status : 404
+[INFO:] 2023/09/12 19:51:41.398747 handler.go:603: Message : 'UpdateOrderStatus-API called'
+[INFO:] 2023/09/12 19:51:41.401912 handler.go:628: Message : 'Order status updated successfully' Status : 200
