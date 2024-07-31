@@ -53,5 +53,28 @@ The application uses JWT (JSON Web Token) for authentication. To access the prot
 ### Admin Authentication
 - For admin authentication, the same process applies with a valid JWT token obtained during the login process for an admin user.
 
-## Error Handling
+### Error Handling
 The application handles various error scenarios and provides appropriate error responses with corresponding status codes and messages.
+
+## Installation
+
+ 1. Clone the repository Or Download:
+
+ ```
+   git clone https://github.com/muthukumar89uk/go-online-purchase.git
+ ```
+
+Click here to directly [download it](https://github.com/muthukumar89uk/go-online-purchase/zipball/master).
+
+## Install dependencies:
+
+          go mod tidy
+
+## Run the Application
+  1. Run the Server
+   
+       ```
+          go run .
+       ```  
+
+  2. The server will start on `http://localhost:8000`.
